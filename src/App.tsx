@@ -7,7 +7,8 @@ function App() {
 
 
   return (
-    <Carousel>
+  
+    <Carousel swipe={false} >
       <WeatherApp></WeatherApp>
       <Weather5days></Weather5days>
     </Carousel>
